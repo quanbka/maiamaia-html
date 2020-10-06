@@ -1,0 +1,4 @@
+source/storage/debugbar/*.json
+source/resources/images/*
+.idea/
+/source/nbproject/private/

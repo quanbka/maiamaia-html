@@ -1,0 +1,4 @@
+convert: Empty input file ./wp-content/uploads/2017/12/10-2-390x190.jpg @ error/jpeg.c/JPEGErrorHandler/297.
+convert: missing an image filename `./wp-content/uploads/2017/12/10-2-390x190.jpg' @ error/convert.c/ConvertImageCommand/3015.
+convert: Empty input file ./wp-content/uploads/2016/02/vital-hands-390x179.jpg @ error/jpeg.c/JPEGErrorHandler/297.
+convert: missing an image filename `./wp-content/uploads/2016/02/vital-hands-390x179.jpg' @ error/convert.c/ConvertImageCommand/3015.

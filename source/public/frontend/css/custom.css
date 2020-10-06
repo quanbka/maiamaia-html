@@ -1,0 +1,237 @@
+banner{
+    width: 100%;
+}
+banner a{
+    width: 100% !important;
+}
+banner a img, banner img{
+    width: 100%;
+}
+.work-together-item{
+    display: inline-block;
+}
+
+body > main > div.container > div.row.feature-wrapper > div > a > span.feature-image > img,
+body > main > div.container > div.why-choose-us-wrapper > div > div > div > div > div > span.why-choose-us-image > img,
+body > main > div > div > div > div > div > div > div > span.why-choose-us-image > img
+{
+    width: 100%;
+}
+
+body > main > div > div > div.col-sm-9.left-col > div.row.category-wrapper > div > a > span.category-thumb{
+    border: 1px solid #eee;
+    height: 202px;
+    display: block;
+}
+
+body > main > div > div > div.col-sm-9.left-col > div.row.category-wrapper > div > a > span.category-thumb > img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+body > header > nav > div > div > div.navbar-header > a > img{
+    max-width: 169px;
+    max-height: 79px;
+}
+
+
+
+#floating-phone { display: none; position: fixed; left: 10px; bottom: 10px; height: 50px; width: 50px; background: #46C11E url(http://callnowbutton.com/phone/callbutton01.png) center / 30px no-repeat; z-index: 99; color: #FFF; font-size: 35px; line-height: 55px; text- align: center; border-radius: 50%; -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.5); -moz-box-shadow: 0 2px 5px rgba(0,0,0,.5); box-shadow: 0 2px 5px rgba(0,0,0,.5); }
+
+@media (max-width: 767px) {
+    #floating-phone { display: block; }
+    .why-choose-us-wrapper{
+        /* background: none; */
+    }
+
+    body > main > div > div > div.col-sm-9.left-col > div.row.category-wrapper > div > a{
+        width: 100%;
+    }
+
+    body > main > div > div > div.col-sm-9.left-col > div.row.category-wrapper > div > a > span.category-thumb{
+        border: 1px solid #eee;
+        height: auto;
+        display: block;
+    }
+
+    body > main > div > div > div.col-sm-9.left-col > div.row.category-wrapper > div > a > span.category-thumb > img{
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+}
+
+@media (max-width: 767px){
+    body > main > div.container > div.row.feature-wrapper > div > a{
+        width: 100%;
+
+    }
+
+    body > main > div > div > div.col-sm-9.left-col > div.row.category-wrapper > div > a > span.category-thumb{
+
+    }
+
+    body > main > div > div > div.col-sm-9.left-col > div.row.category-wrapper > div > a > span.category-thumb > img{
+
+    }
+
+    body > main > div > div > div.col-sm-9.left-col > div.row.category-wrapper > div > a > span.category-thumb{
+
+    }
+
+}
+
+@media (max-width: 1200px){
+    body > main > div > div > div.col-sm-9.left-col > div.row.category-wrapper > div > a > span.category-thumb{
+        border: 1px solid #eee;
+        /* height: 162px; */
+        display: block;
+    }
+
+}
+.dropdown.dropdown-large ul{
+  display: none;
+}
+.dropdown.dropdown-large.open ul{
+  display: block;
+}
+.dropdown-large {
+  position: static !important;
+}
+.dropdown-menu-large {
+  width: 100%;
+  padding: 40px 0px 30px;
+  margin: 0px !important;
+
+  /* margin-left: 16px; */
+  /* margin-right: 16px; */
+}
+body > header > nav > div > div > div.collapse.navbar-collapse.main-nav > ul > li.dropdown.dropdown-large.open > ul > div{
+  max-width: 1170px;
+}
+body > header > nav > div > div > div.collapse.navbar-collapse.main-nav > ul > li.dropdown.dropdown-large.open > ul > div > div > ul{
+  float:left;
+  margin: 0px;
+}
+.dropdown-menu-large > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.dropdown-menu-large > li > ul > li {
+  list-style: none;
+}
+.dropdown-menu-large > li > ul > li > a {
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  font-weight:300;
+  line-height: 1.428571429;
+  color: #333333;
+  white-space: normal;
+}
+.dropdown-menu-large > li ul > li > a:hover,
+.dropdown-menu-large > li ul > li > a:focus {
+  text-decoration: none;
+  color: #262626;
+  background-color: #f5f5f5;
+}
+.dropdown-menu-large .disabled > a,
+.dropdown-menu-large .disabled > a:hover,
+.dropdown-menu-large .disabled > a:focus {
+  color: #999999;
+}
+.dropdown-menu-large .disabled > a:hover,
+.dropdown-menu-large .disabled > a:focus {
+  text-decoration: none;
+  background-color: transparent;
+  background-image: none;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  cursor: not-allowed;
+}
+.dropdown-menu-large .dropdown-header {
+  color: #428bca;
+  font-size: 18px;
+}
+
+
+@media (min-width: 1200px){
+  .nav.navbar-nav.fr{
+    float:right !important;
+  }
+
+  body > header > nav > div > div > div.collapse.navbar-collapse.main-nav > ul > li{
+
+    height: 50px;
+  }
+  body > header > nav > div > div > div.collapse.navbar-collapse.main-nav{
+
+  }
+  body > header > nav > div > div > div.collapse.navbar-collapse.main-nav > ul > li.dropdown.dropdown-large:hover > ul, li.dropdown.dropdown-large:hover ul  {
+      display: block !important;
+  }
+  body > header > nav > div > div > div.collapse.navbar-collapse.main-nav > ul > li.dropdown.dropdown-large > ul > div > div > ul{
+      float: left;
+      margin: 0;
+  }
+  body > header > nav > div > div > div.collapse.navbar-collapse.main-nav > ul > li.dropdown.dropdown-large > ul > div{
+      max-width: 1170px;
+  }
+
+
+}
+
+@media (min-width: 768px){
+.navbar-nav > li > a {
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+}
+
+body > header > nav > div > div > div.collapse.navbar-collapse.main-nav > ul > li > ul > div > div > ul {
+  list-style-image: url('/32x32.png');
+}
+
+body > header > nav > div > div > div.collapse.navbar-collapse.main-nav > ul > li > ul > div > div > ul > li > a{
+    text-transform: none !important;
+    text-align: left;
+    line-height: 32px;
+}
+
+body > header > nav > div > div > div.collapse.navbar-collapse.main-nav > ul > li > ul > div > div > ul > li{
+    /* list-style: none; */
+}
+
+body > header > nav > div > div > div.collapse.navbar-collapse.main-nav > ul > li > ul > div > div > ul > h3 > a{
+    text-transform: uppercase !important;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+body > header > nav > div > div > div.collapse.navbar-collapse.main-nav > ul > li > ul > div > div > ul > h3{
+    margin-top: -20px;
+}
+
+body, p, span, h1, h2, h3{
+  font-family: 'Poppins', sans-serif;
+}
+
+h3.good-for-you-item-title{
+    font-size: 18px;
+}
+
+
+h1.category-title{
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 18px;
+}
+
+.carousel-indicators{
+    display: none;
+}
